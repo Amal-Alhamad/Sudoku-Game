@@ -1,24 +1,26 @@
 # Sudoku Game  
 
-This is a Sudoku game developed in Java, designed to run in the terminal within NetBeans. The game offers an engaging puzzle-solving experience while following software design best practices using well-known design patterns.  
+This is a text-based Sudoku game developed in Java, running in the terminal within NetBeans. The game allows players to solve Sudoku puzzles while following structured software design principles.  
 
-## Key Features  
-- **Interactive Sudoku Gameplay** – Play directly in the terminal with real-time input.  
-- **Difficulty Levels** – Choose from different levels to match your skills.  
-- **Validation & Hints** – Check your progress and receive hints to improve your game.  
+## How to Play  
+- Choose a difficulty level: **Easy** or **Hard**.  
+- Enter a **row, column, and value** to fill a cell in the Sudoku grid.  
+- If the value is correct, your score **increases by 5 points**.  
+- If the value is incorrect, your score **decreases by 2 points**.  
+- You can **pause the game and resume later**.  
 
 ## Design Patterns Implemented  
 
-To ensure a structured and maintainable codebase, we applied the following design patterns:  
+This project follows best software development practices by applying multiple design patterns:  
 
-### 1. **Singleton (Creational Pattern)**  
-   - Manages a single instance of essential game components to maintain consistency and prevent redundancy.  
+1. **Singleton (Creational Pattern)**  
+   - Ensures only one instance of the menu is created for efficient game management.  
 
-### 2. **Facade (Structural Pattern)**  
-   - Provides a simplified interface to interact with the game's core functionality, reducing complexity.  
+2. **Facade (Structural Pattern)**  
+   - Simplifies interaction with game logic by providing a unified interface for level selection and game management.  
 
-### 3. **State (Behavioral Pattern)**  
-   - Controls different game states (e.g., in-progress, paused, completed) to manage transitions smoothly.  
+3. **State (Behavioral Pattern)**  
+   - Manages different game states, including **playing, paused, and completed**, ensuring smooth transitions.  
 
 ## Technologies & Tools  
 - **Java** – Core programming language  
