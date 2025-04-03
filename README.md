@@ -23,7 +23,7 @@ This project follows best software development practices by applying multiple de
    - Manages different game states, including **playing, paused, and completed**, ensuring smooth transitions.
 
  ## Class digram 
- <img
+ <img src="image/SudokuGameClassDigram.png" width="500"/>
 
 ## Technologies & Tools  
 - **Java** – Core programming language  
