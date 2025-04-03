@@ -20,7 +20,10 @@ This project follows best software development practices by applying multiple de
    - Simplifies interaction with game logic by providing a unified interface for level selection and game management.  
 
 3. **State (Behavioral Pattern)**  
-   - Manages different game states, including **playing, paused, and completed**, ensuring smooth transitions.  
+   - Manages different game states, including **playing, paused, and completed**, ensuring smooth transitions.
+
+ ## Class digram 
+ <img
 
 ## Technologies & Tools  
 - **Java** – Core programming language  
